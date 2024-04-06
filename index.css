@@ -584,6 +584,10 @@ footer::before {
         text-align: center;
     }
 
+    footer .links {
+        z-index: 100;
+    }
+
 }
 
 @media (max-width:600px) {
@@ -603,4 +607,9 @@ footer::before {
         content: "";
         background-color: transparent;
     }
+
+    footer .links {
+        z-index: 100;
+    }
+
 }
